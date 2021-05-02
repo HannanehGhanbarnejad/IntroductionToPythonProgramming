@@ -13,12 +13,10 @@ def prog1(a, b):
     The first number must be smaller than the second number.
     
     >>> prog2(56, 67) #56 as a, 67 as b
-    The even numbers between 56 and 67 are: 
     [56, 58, 60, 62, 64, 66]
     
     """
-    if a<b:
-        print("The even numbers between", a, "and", b, "are: ") 
+    if a<b: 
         L=[]
         for i in range(a, b+1):
             if i%2 == 0:
